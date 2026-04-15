@@ -145,18 +145,28 @@ Patient-Management-System/
 
 git clone https://github.com/Yug-Dev1/patient-management-system.git
 
-### 2. Open in NetBeans
+### 2. EMAIL credentials
+
+For security reasons, credentials are not stored in the repository.
+Locate the email configuration in the code and replace:
+
+String email = "YOUR_EMAIL";
+String password = "YOUR_APP_PASSWORD";
+
+[Add your own gmail n APP_PASSWORD (not normal)]
+
+### 3. Open in NetBeans
 - Open Apache NetBeans
 - Click **Open Project**
 - Select the project folder
 
-### 3. Configure Database
+### 4. Configure Database
 Edit:
 src/db/DBconnection.java
 
 Add your MySQL credentials.
 
-### 4. Run
+### 5. Run
 Press **F6** or click **Run Project**
 
 ---
