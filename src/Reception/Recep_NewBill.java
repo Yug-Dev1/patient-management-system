@@ -516,9 +516,9 @@ private Integer selectedDoctorId      = null;
     }
 }
     private void mail(String email) {
-
-    final String unm = "yb192006@gmail.com";
-    final String pwd = "evdp oqsg elql pohz";
+    
+    final String unm = "YOUR email";
+    final String pwd = "YOUR app password";
 
     Properties props = new Properties();
     props.put("mail.smtp.auth", "true");
